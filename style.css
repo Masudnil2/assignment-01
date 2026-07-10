@@ -173,3 +173,146 @@ header{
     margin: 10px 0;
     font-size: 30px;
 }
+
+.secure-parent{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.Early{
+    padding: 20px 0;
+}
+
+.Early h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.Early p{
+   text-align: center; 
+   margin-bottom: 60px;
+}
+
+.pr-cardu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.standard{
+    width: 300px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 30px;
+    transition: .3s;
+
+}
+
+.standard:hover{
+    transform: translateY(-10px);
+}
+
+.standard p{
+    font-weight: 700;
+    letter-spacing: 7px;
+}
+
+.standard h2{
+    font-size: 50px;
+    margin: 10px 0 5px;
+}
+
+.standard span{
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.standard hr{
+    margin: 25px 0;
+    border-top: 1px solid #e9a4a4;
+}
+
+.standard ul li{
+    margin: 15px 0;
+    font-size: 15px;
+    position: relative;
+    padding-left: 15px;
+    
+}
+
+.outlinbtn{
+    background: white;
+    color: rgb(8, 115, 238);
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 5px 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.outlinbtn:hover{
+    background: #111c2d;
+    color: #ddd;
+}
+
+.pro{
+     width:340px;
+    background: #0D1B2A;
+    color: white;
+    border:1px solid #e5e5e5;
+    border-radius:12px;
+    padding:28px;
+    transition:.3s;
+}
+
+.pro:hover{
+    transform: translateY(-10px);
+}
+
+.pro p{
+    font-weight: 700;
+    letter-spacing: 15px;
+}
+.pro h2{
+    font-size: 50px;
+    margin: 10px 0 5px;
+}
+
+.pro span{
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.pro hr{
+    margin: 25px 0;
+    border-top: 1px solid #e9a4a4;
+}
+
+
+.pro ul li{
+    margin: 15px 0;
+    font-size: 15px;
+    position: relative;
+    padding-left: 15px;
+    
+}
+
+.outlinbtn-blu{
+    background: rgb(8, 115, 238);
+    color: white;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 5px 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.outlinbtn-blu:hover{
+    background: #111c2d;
+    color: #ddd;
+}
