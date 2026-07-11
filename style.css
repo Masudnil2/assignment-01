@@ -316,3 +316,76 @@ header{
     background: #111c2d;
     color: #ddd;
 }
+
+.why-attend{
+    padding:100px 0;
+    background:#f8fafc;
+}
+
+.devconf-26r{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-heading h2{
+    font-size:48px;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.section-heading p{
+    font-size:18px;
+    color:#6b7280;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.feature-dev{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.feature-dev:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.icon{
+    width:70px;
+    height:70px;
+    margin:0 auto 20px;
+    background:#2563EB;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+}
+
+.feature-dev h3{
+    font-size:24px;
+    margin-bottom:15px;
+    color:#111827;
+}
+
+.feature-dev p{
+    color:#6b7280;
+    line-height:1.7;
+}
+
+
